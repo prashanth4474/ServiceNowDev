@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a836bf764796311060b823dbd36d4344" label="Investment Account" max_length="40" name="x_1072178_pts_investment_account" type="collection">
+        <element label="Account Name" max_length="255" name="account_name" type="string_full_utf8"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice/>
+        </element>
+        <element label="Value" max_length="40" name="value" type="float"/>
+    </element>
+</database>
