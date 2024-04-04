@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0ee0e62e975102109633fbafe153af82" label="Vector Embbedings" max_length="40" name="x_1072178_llm_chat_vector_embbedings" type="collection">
+        <element label="Embedding Vector" max_length="2147483647" name="embedding_vector" type="string_full_utf8"/>
+        <element label="Uploaded Article" max_length="32" name="uploaded_article" reference="x_1072178_llm_chat_uploaded_articles" type="reference"/>
+        <index name="index">
+            <element name="uploaded_article"/>
+        </index>
+    </element>
+</database>
